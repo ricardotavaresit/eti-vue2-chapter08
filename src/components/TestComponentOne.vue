@@ -4,12 +4,11 @@
 
 <script>
   export default {
-      data(){
-        return{
-          msg: "Course Vue JS"
-        }
+    data(){
+      return{
+        msg: "Course Vue JS"
+      }
     }
-
   }
 </script>
 
