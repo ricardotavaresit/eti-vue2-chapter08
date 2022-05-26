@@ -3,6 +3,7 @@
      Teste {{ msg }}
      <test-component-one />
      <test-component-two/>
+     <form-component />
 
   </div>
 </template>
@@ -10,6 +11,7 @@
 <script>
 import TestComponentOne from "./components/TestComponentOne";
 import TestComponentTwo from "./components/TestComponentTwo";
+import FormComponent from "./components/FormComponent.vue"
 
 export default {
 
@@ -20,7 +22,8 @@ export default {
   },
   components:{
     TestComponentOne,
-    TestComponentTwo
+    TestComponentTwo,
+    FormComponent
   }
 }
 </script>
