@@ -1,16 +1,26 @@
 <template>
   <div id="app">
      Teste {{ msg }}
+     <test-component-one />
+     <test-component-two/>
+
   </div>
 </template>
 
 <script>
+import TestComponentOne from "./components/TestComponentOne";
+import TestComponentTwo from "./components/TestComponentTwo";
+
 export default {
 
   data () {
     return {
       msg: 'Vue.js Course'
     }
+  },
+  components:{
+    TestComponentOne,
+    TestComponentTwo
   }
 }
 </script>
