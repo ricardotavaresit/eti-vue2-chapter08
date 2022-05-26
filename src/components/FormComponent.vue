@@ -1,5 +1,6 @@
 <template>
   <div class="comp">
+    <h2>{{ title }}</h2>
     {{ msg }}
   </div>
 </template>
@@ -8,7 +9,8 @@
   export default {
     data(){
       return {
-        msg: "I'm a green Form"
+        msg: "I'm a green Form",
+        title: "Form Component"
       }
     }
   }

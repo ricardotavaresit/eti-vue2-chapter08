@@ -1,5 +1,6 @@
 <template>
   <div class="comp">
+    <h2>{{ title }}</h2>
     <p>Test Component Two - {{ msg }} </p>
   </div>
 </template>
@@ -8,7 +9,8 @@
   export default {
     data(){
         return{
-          msg: "Course Vue JS"
+          msg: "Course Vue JS",
+          title: "Test One Component"
         }
     }
   }

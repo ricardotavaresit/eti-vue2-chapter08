@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="comp">
+    <h2>{{ title }}</h2>
      Teste {{ msg }}
      <test-component-one />
      <test-component-two />
@@ -18,7 +19,8 @@ import TaskComponent from "./components/TaskComponent"
 export default {
   data() {
     return {
-      msg: 'Vue.js Course'
+      msg: 'Vue.js Course',
+      title: "App Component"
     }
   },
   components:{

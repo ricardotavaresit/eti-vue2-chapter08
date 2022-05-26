@@ -1,5 +1,6 @@
 <template>
   <div class="comp">
+    <h2>{{ title }}</h2>
     <table>
       <tr>
         <th>Name</th>
@@ -23,7 +24,8 @@
                 { name: "Task 2", completed: false },
                 { name: "Task 3", completed: true },
                 { name: "Task 4", completed: false}
-              ]
+              ],
+            title: "Tasks Component"
       }
     }
   }
