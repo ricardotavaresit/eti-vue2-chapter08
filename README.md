@@ -1,7 +1,7 @@
-Chapter 08 - Components in Vue JS
+Chapter 08 - Vue CLI with Webpack in Vue JS
 
-- Class 01: Presentation components in Vue JS
-- Class 02: Components in Vue JS
+- Class 01: Webpack-simple structure Vue CLI
+- Class 02: Components Vue CLI
 
 ## Technologies used
 
