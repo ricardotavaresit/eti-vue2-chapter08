@@ -2,8 +2,9 @@
   <div id="app">
      Teste {{ msg }}
      <test-component-one />
-     <test-component-two/>
+     <test-component-two />
      <form-component />
+     <task-component />
 
   </div>
 </template>
@@ -11,10 +12,11 @@
 <script>
 import TestComponentOne from "./components/TestComponentOne";
 import TestComponentTwo from "./components/TestComponentTwo";
-import FormComponent from "./components/FormComponent"
+import FormComponent from "./components/FormComponent";
+import TaskComponent from "./components/TaskComponent"
 
 export default {
-  data () {
+  data() {
     return {
       msg: 'Vue.js Course'
     }
@@ -22,7 +24,8 @@ export default {
   components:{
     TestComponentOne,
     TestComponentTwo,
-    FormComponent
+    FormComponent,
+    TaskComponent
   }
 }
 </script>
