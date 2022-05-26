@@ -1,9 +1,8 @@
 <template>
-  <div>
+  <div class="comp">
     {{ msg }}
   </div>
 </template>
-
 
 <script>
   export default {

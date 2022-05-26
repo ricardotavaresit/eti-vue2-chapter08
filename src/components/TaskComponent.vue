@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="comp">
     <table>
       <tr>
         <th>Name</th>
@@ -7,7 +7,7 @@
       </tr>
       <tr v-bind:key="index" v-for="(task, index) in tasks" >
         <td> {{ task.name}}</td>
-        <td> {{ task.completed}}</td>
+        <td> {{ task.completed ? "Yes" : "No"}}</td>
       </tr>
     </table>
   </div>
@@ -30,5 +30,10 @@
 </script>
 
 <style scoped>
+  .comp{
+    border: 1px solid red;
+    margin: 5px;
+    padding: 5px;
+  }
 
 </style>

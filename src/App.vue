@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="comp">
      Teste {{ msg }}
      <test-component-one />
      <test-component-two />
@@ -31,6 +31,12 @@ export default {
 </script>
 
 <style>
+.comp{
+  border: 1px solid blue;
+  margin: 5px;
+  padding: 5px;
+}
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
