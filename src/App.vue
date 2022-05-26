@@ -11,10 +11,9 @@
 <script>
 import TestComponentOne from "./components/TestComponentOne";
 import TestComponentTwo from "./components/TestComponentTwo";
-import FormComponent from "./components/FormComponent.vue"
+import FormComponent from "./components/FormComponent"
 
 export default {
-
   data () {
     return {
       msg: 'Vue.js Course'
