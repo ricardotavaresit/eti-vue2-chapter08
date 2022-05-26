@@ -1,16 +1,18 @@
-Chapter 08 - Vue CLI installation in Vue JS
+# eti-vue2-chapter08
 
-- Class 01: Vue CLI installation in Vue JS
- 
+> A Vue.js project
 
-## Technologies used
+## Build Setup
 
-- VueJS;
-- HTML;
-- JavaScript
+``` bash
+# install dependencies
+npm install
 
-## Contact Us
+# serve with hot reload at localhost:8080
+npm run dev
 
-- Email: ricardotavaresit@gmail.com
-- Tlm: +351 968 348 200
-- [LinkedIn](https://www.linkedin.com/in/ricardotavaresit/)
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
