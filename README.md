@@ -1,6 +1,14 @@
-# eti-vue2-chapter08
+Chapter 08 - Components in Vue JS
 
-> A Vue.js project
+- Class 01: Presentation components in Vue JS
+- Class 02: Components in Vue JS
+
+## Technologies used
+
+- VueJS;
+- HTML;
+- JavaScript
+
 
 ## Build Setup
 
@@ -15,4 +23,8 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Contact Us
+
+- Email: ricardotavaresit@gmail.com
+- Tlm: +351 968 348 200
+- [LinkedIn](https://www.linkedin.com/in/ricardotavaresit/)
