@@ -1,4 +1,6 @@
-Chapter 08 - Vue CLI with Webpack in Vue JS
+<p align="center"><img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" width="200px"></p>
+
+<h2>Chapter 08 - Vue CLI with Webpack in Vue JS</h2>
 
 - Class 01: Webpack-simple structure Vue CLI
 - Class 02: Components Vue CLI
